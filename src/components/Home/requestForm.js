@@ -53,7 +53,12 @@ export default function RequestForm() {
 	  const formCollection = collection(db, "default");
 
 	  // ✅ Add a new document with formData
-	  const docRef = await addDoc(formCollection, formData);
+    const docRef = await addDoc(formCollection, {
+      ...formData,
+      status: "new",
+      createdAt: new Date(),
+    });
+	 
 
 	  console.log("Document written with ID:", docRef.id);
 	  alert("Form submitted successfully!");

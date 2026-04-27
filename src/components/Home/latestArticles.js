@@ -1,34 +1,35 @@
 import React, { useState } from "react";
-
+import HouseShift from "../../assets/house_2.jpeg"
 export default function LatestArticles() {
   
   const articles = [
     {
       id: 1,
-      img: "https://demo.templatesjungle.com/deliver/images/plane.png",
-      title: "Learn and stay updated with",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Ipsum has been the industry's standard dummy text ever since",
+      img: HouseShift,
+      title: "Smart Tips for Hassle-Free House Shifting",
+      desc: "Moving to a new home can be stressful — but it doesn’t have to be. Learn simple tricks to make your move smooth and organized.",
     },
     {
       id: 2,
       img: "https://demo.templatesjungle.com/deliver/images/box.png",
-      title: "Asia-Pacific shipping update",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Ipsum has been the industry's standard dummy text ever since",
+      title: "Why Professional Packers & Movers Save You Time",
+      desc: "Discover how experts ensure faster, safer relocations — without damaging your belongings.",
     },
     {
       id: 3,
       img: "https://demo.templatesjungle.com/deliver/images/plane.png",
-      title: "Stay up to date with logistics",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Ipsum has been the industry's standard dummy text ever since",
-    },
+      title: "Corporate Logistics Made Easy",
+      desc: "From scheduled deliveries to warehouse storage, we streamline business logistics for better efficiency.",
+    }
   ];
  
   return (
+    <>
     <section className="py-10 bg-white flex flex-col md:flex-row justify-between items-center px-6 md:px-20 gap-12">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl font-semibold text-center text-teal-900 mb-12">
-          Latest Articles
+        Latest Articles & Updates
         </h2>
 
         {/* Articles grid */}
@@ -62,12 +63,10 @@ export default function LatestArticles() {
         </div>
 
         {/* Button */}
-
-      
-
       </div>
-
-
     </section>
+   
+
+    </>
   );
 }

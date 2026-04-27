@@ -1,11 +1,12 @@
 import React from "react";
 import LeftLog from "../../assets/imagelogo.png"
 import LeftLog1 from "../../assets/imagelogo1.png"
+import NewLogo from "../../assets/logo_new.png"
 const Banner = () => {
   return (
     <div>
       {" "}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between flex-1 px-10 md:px-20 bg-gray-100">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between flex-1 px-10 md:px-20">
         {/* Left Text Content */}
         <div className="max-w-xl space-y-6">
           <h2 className="text-5xl font-bold text-gray-900 leading-tight">
@@ -17,6 +18,8 @@ const Banner = () => {
             <li>2. Global Coverage</li>
             <li>3. Customer Support</li>
             <li>4. Free Pickup Services</li>
+            <li>5. Domestic and international courier</li>
+            <li>6. Packers & Movers (Home and Office Relocation)</li>
           </ul>
 
           <a
@@ -30,7 +33,7 @@ const Banner = () => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end mt-10 md:mt-0">
           <img
-            src={LeftLog}
+            src={NewLogo}
             alt="Delivery Rider"
             className="w-[400px] md:w-[500px] lg:w-[550px]"
           />

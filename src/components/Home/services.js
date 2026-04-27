@@ -1,4 +1,4 @@
-import { Truck, Ship, Headphones, Tag } from "lucide-react";
+import { Truck, Ship, Headphones, Tag,HousePlus } from "lucide-react";
 
 const services = [
   {
@@ -9,8 +9,8 @@ const services = [
   },
   {
     id: 2,
-    icon: <Ship className="w-14 h-14 text-teal-900" />,
-    title: "Ocean Freight",
+    icon: <HousePlus className="w-14 h-14 text-teal-900" />,
+    title: "House Shifting",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting Ipsum has been the industry's standard dummy text ever since",
   },
   {

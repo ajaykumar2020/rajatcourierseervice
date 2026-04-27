@@ -54,7 +54,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="text-sm mb-2 md:mb-0 text-gray-200">
-            © {new Date().getFullYear()} Log. All rights reserved.
+          Copyright © 2024-2025 rajatcourierservice.com. All rights reserved.
           </div>
 
           {/* Social Icons */}

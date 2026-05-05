@@ -42,7 +42,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center space-x-2">
               <MapPin size={18} />
-              <span>Shop 2 North South City park near tibetan colony sahastradhara road DehradunIndia</span>
+              <span>Shop 2 North South City park near tibetan colony sahastradhara road Dehradun India</span>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="text-sm mb-2 md:mb-0 text-gray-200">
-          Copyright © 2024-2025 rajatcourierservice.com. All rights reserved.
+          Copyright © 2025-2026 rajatcourierservice.com. All rights reserved.
           </div>
 
           {/* Social Icons */}

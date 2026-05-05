@@ -1,14 +1,13 @@
 import React from "react";
-import LeftLog from "../../assets/imagelogo.png"
-import LeftLog1 from "../../assets/imagelogo1.png"
+
 import NewLogo from "../../assets/logo_new.png"
 const Banner = () => {
   return (
     <div>
-      {" "}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between flex-1 px-10 md:px-20">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between flex-1 px-10 md:px-20 gap-6 pt-6 md:pt-10">
+
         {/* Left Text Content */}
-        <div className="max-w-xl space-y-6">
+        <div className="w-full md:w-1/2 max-w-xl space-y-6">
           <h2 className="text-5xl font-bold text-gray-900 leading-tight">
             We offer a wide <br /> range of logistics <br /> solutions.
           </h2>
@@ -31,15 +30,17 @@ const Banner = () => {
         </div>
 
         {/* Right Image */}
-        <div className="flex justify-center md:justify-end mt-10 md:mt-0">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end items-center">
           <img
             src={NewLogo}
             alt="Delivery Rider"
-            className="w-[400px] md:w-[500px] lg:w-[550px]"
+            className="w-[80%] md:w-[90%] max-w-[600px] object-contain"
           />
         </div>
-      </section>
-    </div>
+
+      </section >
+
+    </div >
   );
 };
 

@@ -6,6 +6,7 @@ import Dashboard from "./pages/dashboard/dashboard";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import ContactPage from "./components/contact";
 import AboutPage from "./components/about";
+import ServicesPage from "./components/services";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage/>} />
+          <Route path="/services" element={<ServicesPage/>}/>
           {/* <Route exact path="/dashboard" element={<Dashboard />} /> */}
           <Route
             exact
